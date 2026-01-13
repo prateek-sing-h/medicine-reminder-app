@@ -1,16 +1,19 @@
-# lc_corperate
+# Medicine Reminder App
 
-A new Flutter project.
+A Flutter-based Medicine Reminder application that allows users to add daily medicines and receive reminder notifications.
 
-## Getting Started
+## Features
+- Add medicine name, dose, and time
+- Sorted medicine list by time
+- Background notification reminders
+- Local storage using Hive
+- Clean architecture with Provider state management
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Provider
+- Hive
+- flutter_local_notifications
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Note
+Notifications are demonstrated on Android Emulator (API 12/13) where background execution is consistent.
